@@ -39,3 +39,10 @@ Before running the code, open your Colab file explorer (folder icon on the left)
 Run the following command in your first Colab cell to ensure exact version compatibility:
 ```bash
 !pip install -r snatch_detection_requirements.txt
+```
+### Step 3: Choose Your Pipeline
+For Video + Audio (Hybrid): Open the code from MultiModel_SnatchDetection.ipynb. Ensure INPUT_VIDEO_PATH, VIDEO_MODEL_PATH, and AUDIO_MODEL_PATH point to your uploaded files.
+For Video-Only: Open the code from Video_SnatchDetection.ipynb. Ensure INPUT_VIDEO_PATH and ML_MODEL_PATH point to your uploaded files. (No audio model is needed).
+
+### Step 4: Execute
+Run the pipeline block. The output video will be generated and saved as Final_Snatch_Output.mp4 in the Colab file explorer. You can download it by clicking the three dots next to the file.
