@@ -22,11 +22,10 @@ Based on the project structure, here is a breakdown of the repository:
 *   **`Videos/`**: A directory intended to store your testing footage.
 *   **`audio_crnn_gru_model.h5`**: The compiled Keras model for audio classification.
 *   **`snatch_model.pkl`**: The compiled XGBoost model for video feature classification.
-*   **`instructions.txt`**: A quick-start guide for setting up the environment.
 
 ---
 
-## 🚀 How to Run on Google Colab
+## How to Run on Google Colab
 
 ### Step 1: Upload Required Files
 Before running the code, open your Colab file explorer (folder icon on the left) and upload the following files to the base `/content/` directory:
